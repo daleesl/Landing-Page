@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* NAVBAR-SECTION */
+.nav-link a {
+    color: rgb(165, 161, 161) !important;
+}
+
+.nav-link a:hover {
+    color: rgb(221, 213, 213) !important;
+    transform: translateY(-2px);
+     transition: all 0.3s ease;
+}
+
+.btn-gradient {
+    background: linear-gradient(180deg, #F8F8F8 0%, #E8E8E8 50%, #D0D0D0 100%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #1a1a1a;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 50%, #D8D8D8 100%);
+    color: #1a1a1a;
+    transform: translateY(-2px);
+}
+
+/* FEATURES-SECTION */
+.features img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#Features-Section .container{
+    background-color: #1a1a1a;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.lead{
+    color: rgb(195, 190, 190)
+}
+
+
+/* SPECIFICATION-SECTION */
+
+
+.specs-table thead th {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.specs-table tbody td {
+    padding: 18px 20px;
+    border-color: rgba(255, 140, 0, 0.1);
+    color: rgb(200, 200, 200);
+}
+
+.specs-label {
+    font-weight: 600;
+    width: 450px;
+}
+
+
