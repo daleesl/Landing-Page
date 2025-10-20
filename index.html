@@ -14,14 +14,14 @@
     <!-- NAVBAR -->
     <nav>
         <div class="container-fluid">
-            <div class="row py-3 px-5 mx-5">
-                <div class="col-6 logo ">
+            <div class="row py-3 ps-3 px-md-5 mx-md-5">
+                <div class="col-3 col-md-6 logo ">
                     <a href="#">
                         <img src="/images/apple-logo.svg" alt="apple logo" style="width: 35px">
                     </a>
                 </div>
 
-                <div class="col-6">
+                <div class="col-9 col-md-6">
                     <div class="nav-link d-flex justify-content-end align-items-center h-100">
                         <a href="#Home-Section" class=" text-decoration-none px-3">Home</a>
                         <a href="#Features-Section" class=" text-decoration-none px-3">Features</a>
@@ -32,19 +32,20 @@
         </div>
     </nav>
 
+  
 
     <!-- SECTION 1: Home  -->
     <section id="Home-Section">
-        <div class="container-fluid px-5 pt-3" style="background-color:black;">
-            <div class="row text-white flex-column-reverse flex-lg-row">
-                <div class="col-12 col-md-6 justify-content-center align-items-center text-center my-5 py-2">
+        <div class="container-fluid px-5 pt-3 " style="background-color:black;">
+            <div class="row text-white flex-column-reverse flex-lg-row ">
+                <div class="col-12 col-md-5 justify-content-center align-items-center text-center my-5 py-2 px-5">
                     <h2 class="display-4 fw-bold">iPhone 17 Pro</h2>
                     <p class="lead">Experience the future of innovation. The most advanced iPhone ever created,
                         featuring cutting-edge technology, stunning design, and unparalleled performance.</p>
-                    <a href="#" class="btn btn-gradient btn-lg mt-3">Order Now</a>
+                    <a href="#" class="btn btn-gradient btn-lg mt-3 fw-bold">Order Now!</a>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-7 px-5 17promain">
                     <img src="/images/17proMain.jpg" alt="Iphone 17 Pro" class="img-fluid">
                 </div>
             </div>
@@ -55,12 +56,12 @@
     <section id="Features-Section">
         <h2 class="display-5 fw-bold text-center text-white my-5">Features</h2>
         <div class="container-fluid features">
-            <div class="container">
+            <div class="container my-4 rounded-5">
                 <div class="row text-white  chipset-feature">
                     <div class="col-12 col-md-6 px-2">
                         <img src="/images/A19-Pro-Featured.jpg" alt="chipset-feature" class="img-fluid">
                     </div>
-                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center px-4">
                         <h3 class="feature-title fw-bold">A19 Pro Chip</h3>
                         <p class="lead">Lightning-fast performance powered by our most advanced chip. Experience
                             seamless
@@ -69,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container my-4 rounded-5">
                 <div class="row text-white flex-column-reverse flex-lg-row camera-feature ">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center px-5">
                         <h3 class="feature-title fw-bold">Pro Camera System</h3>
@@ -82,12 +83,12 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container my-4 rounded-5">
                 <div class="row text-white design-feature">
                     <div class="col-12 col-md-6">
                         <img src="/images/design-feature.png" alt="design-feature" class="img-fluid">
                     </div>
-                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center px-4">
                         <h3 class="feature-title fw-bold">Premium Design</h3>
                         <p class="lead">Crafted with precision using premium materials. Titanium frame, ceramic shield,
                             and
@@ -95,7 +96,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container my-4 rounded-5">
                 <div class="row text-white flex-column-reverse flex-lg-row colorways-feature">
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center px-5">
                         <h3 class="feature-title fw-bold">Color Options</h3>
@@ -115,12 +116,12 @@
         <div class="container-fluid specifications-container px-5 py-5" style="background-color: #0a0a0a;">
             <h2 class="display-5 fw-bold text-center text-white mb-5">Specifications</h2>
             <div class="container">
-                <div class="rounded-3 overflow-hidden">
-                    <table class="table table-dark specs-table text-white py-5">
-                        <thead class="table-dark">
+                <div class="rounded-3 overflow-hidden table-responsive">
+                    <table class="table table-dark table-striped table-hover specs-table text-white py-5">
+                        <thead class="table-dark " style="font-size: 1.3rem">
                             <tr>
-                                <th>Specification</th>
-                                <th>Details</th>
+                                <th scope="col" class="p-3">Specification</th>
+                                <th scope="col" class="p-3">Details</th>
                             </tr>
                         </thead>
                         <tbody class="table-group-divider">
@@ -134,7 +135,8 @@
                             </tr>
                             <tr>
                                 <td class="specs-label">Camera</td>
-                                <td>Triple 48 MP system (Main, Ultra Wide, Telephoto) with up to 8× optical-quality zoom</td>
+                                <td>Triple 48 MP system (Main, Ultra Wide, Telephoto) with up to 8× optical-quality zoom
+                                </td>
                             </tr>
                             <tr>
                                 <td class="specs-label">Battery Life</td>

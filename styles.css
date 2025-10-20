@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 /* NAVBAR-SECTION */
@@ -18,9 +19,7 @@
 
 .btn-gradient {
     background: linear-gradient(180deg, #F8F8F8 0%, #E8E8E8 50%, #D0D0D0 100%);
-    border: 1px solid rgba(255, 255, 255, 0.6);
     color: #1a1a1a;
-    font-weight: 700;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
 }
@@ -42,8 +41,6 @@
 
 #Features-Section .container{
     background-color: #1a1a1a;
-    margin-top: 20px;
-    border-radius: 15px;
 }
 
 .lead{
@@ -54,11 +51,6 @@
 /* SPECIFICATION-SECTION */
 
 
-.specs-table thead th {
-    font-size: 1.3rem;
-    padding: 20px;
-}
-
 .specs-table tbody td {
     padding: 18px 20px;
     border-color: rgba(255, 140, 0, 0.1);
@@ -68,6 +60,17 @@
 .specs-label {
     font-weight: 600;
     width: 450px;
+}
+
+@media (max-width: 576px) {
+    .specs-label {
+        width: auto;
+    }
+
+    .promain{
+        max-width: 120%;
+        margin: 0 auto;
+    }
 }
 
 
