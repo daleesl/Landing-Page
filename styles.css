@@ -59,6 +59,8 @@
     width: 450px;
 }
 
+
+
 @media (max-width: 576px) {
     .specs-label {
         width: auto;
